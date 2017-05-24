@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ro.tkf.apps.fedsigremote.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/colorBackground">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:srcCompat="@drawable/remote"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_pa"
+        android:layout_width="102dp"
+        android:layout_height="68dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_siren"
+        android:layout_width="106dp"
+        android:layout_height="72dp"
+        android:visibility="visible"
+        android:layout_marginStart="77dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="146dp" />
+
+    <Button
+        android:id="@+id/btn_radio"
+        android:layout_width="102dp"
+        android:layout_height="72dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="106dp"
+        android:layout_height="76dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="226dp"
+        android:layout_marginStart="77dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="101dp"
+        android:layout_height="77dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="106dp"
+        android:layout_height="69dp"
+        android:visibility="visible"
+        android:layout_marginStart="77dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="310dp" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="102dp"
+        android:layout_height="68dp"
+        android:visibility="visible"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="310dp" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="106dp"
+        android:layout_height="68dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="386dp"
+        android:layout_marginStart="77dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_6"
+        android:layout_width="101dp"
+        android:layout_height="68dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="386dp"
+        android:layout_marginEnd="76dp"
+        app:layout_constraintRight_toRightOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_off"
+        android:layout_width="106dp"
+        android:layout_height="68dp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="77dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
